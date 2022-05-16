@@ -6,13 +6,13 @@ const nav = (props) => {
         <nav className={`flex-1 absolute md:static md:order-2 w-32 md:w-auto bottom-full transition duration-[0] top-full mt-3 md:mt-0 z-10 delay-100 
                 ${props.doesActive ? "navContainerActive" : "navContainerNormal"}`}>
              <div className="flex justify-end navbarMenu relative  overflow-hidden h-40 md:h-auto">
-                <a href="" className={`${navItem.navitemstyle}  top-0
+                <a href="https://www.youtube.com/watch?v=K0MDWjelrgY" className={`${navItem.navitemstyle}  top-0
                  ${props.doesActive ? "navActive" : "navNormal"}`}><span>Home</span></a>
-                <a href="" className={` delay-[50ms] top-[25%] ${navItem.navitemstyle}
+                <a href="https://www.youtube.com/watch?v=K0MDWjelrgY" className={` delay-[50ms] top-[25%] ${navItem.navitemstyle}
                  ${props.doesActive ? "navActive" : "navNormal"}`}><span>About</span></a>
-                <a href="" className={` delay-100  top-1/2  ${navItem.navitemstyle} 
+                <a href="https://www.youtube.com/watch?v=K0MDWjelrgY" className={` delay-100  top-1/2  ${navItem.navitemstyle} 
                  ${props.doesActive ? "navActive" : "navNormal"}`}><span>MyProject</span></a>
-                <a href="" className={` delay-[150ms] top-3/4 ${navItem.navitemstyle} 
+                <a href="https://www.youtube.com/watch?v=K0MDWjelrgY" className={` delay-[150ms] top-3/4 ${navItem.navitemstyle} 
                  ${props.doesActive ? "navActive" : "navNormal"}`}><span>Contact</span></a>                
                 {/* <a href="" className="px-5 py-2 rounded-lg">Home</a>
                 <a href="" className="px-5 py-2 rounded-lg">About</a>
