@@ -1,7 +1,7 @@
 import Hamburger from './components/hamburger'
 import Nav from './components/nav' 
 import Brand from './components/brand'
-import BrandPict from '/public/mylogo.png'
+import BrandPict from '/public/logo.svg'
 import {useState} from 'react';
 
 
@@ -12,9 +12,9 @@ const Header = () => {
         setHamburgerActive(!hamburgerNormal);
     }
     return(
-        <div className='flex justify-between items-center px-4 py-2 relative shadow-md '>
+        <div className='flex justify-between items-center px-4 py-2 z-20 w-full text-white fixed shadow-md backdrop-blur-lg'>
             <Brand brand={BrandPict}/>
-            <div onClick={navTogler} className="block cursor-pointer order-2">
+            <div onClick={navTogler} className="block cursor-pointer order-2 md:hidden">
                 <Hamburger doesActive={hamburgerNormal} />
             </div>
             <Nav doesActive={hamburgerNormal}/>

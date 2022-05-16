@@ -12,7 +12,7 @@
 }
 .hamburgerNormal > span,
 .hamburgerActive > span {
-    @apply block w-full h-1 bg-black absolute top-1/2 -translate-y-1/2 transition-all
+    @apply block w-full h-1 bg-white rounded-full absolute top-1/2 -translate-y-1/2 transition-all
 }
 .hamburgerNormal > span:first-child {
     @apply transform rotate-0 my-2
@@ -43,6 +43,6 @@
 .navContainerActive {
     @apply right-0 
 }
-.navClass span {
-    @apply block transition-all hover:scale-110
+.navbarMenu span {
+    @apply block transition-all transform hover:scale-110 md:hover:scale-110
 }
