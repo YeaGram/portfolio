@@ -1,6 +1,6 @@
 const Title = ()=> {
     return(
-        <div className="z-10 absolute  sm:top-1/3 top-1/2 left-1/2 -translate-x-1/2 -translate-y-full">
+        <div className="z-[0] fixed  sm:top-1/3 top-1/2 left-1/2 -translate-x-1/2 -translate-y-full">
             <div>
                 <h4 className="text-white font-Poppins font-medium text-3xl tracking-[.5rem] leading-6 drop-shadow-primDrop">-Hello-</h4>
                 <h2 className="text-white font-Poppins font-bold text-4xl whitespace-nowrap drop-shadow-primDrop">Im Yeagram</h2>
@@ -105,4 +105,5 @@ const Title = ()=> {
         </div>
     )
 }
+
 export default Title

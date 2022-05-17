@@ -16,6 +16,7 @@ module.exports = {
       colors: {
       'sun' : "#912C9B",
       'sunEnd': '#0A062B',
+      'mountainEnd': '#150941'
       },
       dropShadow: {
         'primDrop': '2px 2px 2px rgba(0, 0, 0, 0.5)',

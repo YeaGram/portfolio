@@ -23,7 +23,7 @@ const Parallax = ()=> {
         </svg>
       </div>
       {/* background */}
-      <div className="absolute bottom-0 w-full">
+      <div className="absolute z-10 bottom-0 w-full">
       <svg  viewBox="0 0 1920 935.71686" >
         <defs>
           <linearGradient x1="0.3871991" y1="0.8995232" x2="0.58694243" y2="2.3494007E-08" id="gradient_1">
