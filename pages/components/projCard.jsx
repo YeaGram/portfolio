@@ -21,7 +21,7 @@ const ProjCar = () => {
                         <div className="w-6">
                             <svg viewBox="0 0 14.575439 8.863281" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
                             <g id="Triangle" transform="translate(1.5 1.5)">
-                                <path d="M5.78778 0L11.5756 5.86324L0 5.86324L5.78778 0Z" id="Triangle" fill="none" fillRule="evenodd" stroke="#FFFFFF" stroke-width="2" />
+                                <path d="M5.78778 0L11.5756 5.86324L0 5.86324L5.78778 0Z" id="Triangle" fill="none" fillRule="evenodd" stroke="#FFFFFF" strokeWidth="2" />
                             </g>
                             </svg>
                         </div>
