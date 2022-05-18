@@ -1,12 +1,13 @@
 const Title = ()=> {
     return(
-        <div className="z-[0] fixed  sm:top-1/3 top-1/2 left-1/2 -translate-x-1/2 -translate-y-full">
-            <div>
-                <h4 className="text-white font-Poppins font-medium text-3xl tracking-[.5rem] leading-6 drop-shadow-primDrop">-Hello-</h4>
-                <h2 className="text-white font-Poppins font-bold text-4xl whitespace-nowrap drop-shadow-primDrop">Im Yeagram</h2>
+        <div className="z-[0] fixed  sm:top-1/2 top-1/2 left-1/2 -translate-x-1/2  -translate-y-full flex justify-center items-center">
+            <div className="flex flex-col flex-1">
+                <h4 className="
+                text-white font-Poppins font-medium text-3xl sm:text-4xl md:text-5xl tracking-[.5rem] leading-6 drop-shadow-primDrop">-Hello-</h4>
+                <h2 className="text-white font-Poppins font-bold text-4xl whitespace-nowrap drop-shadow-primDrop sm:text-5xl md:text-6xl">Im Yeagram</h2>
                 <blockquote className="text-purple-400 font-Poppins font-medium itali whitespace-nowrap">of course <span className="underline-offset-2 underline">not</span> my real name</blockquote>
             </div>
-            <div className="sm:w-full screen320:w-3/4 w-1/2 absolute top-0 left-full -translate-x-2/3 -translate-y-full sm:top-full sm:-translate-x-1/4 sm:-translate-y-0">
+            <div className="sm:w-full flex-[2] sm:min-w-[230px] sm:p-4 screen320:w-3/4 w-1/2 absolute sm:static top-0 left-full -translate-x-2/3 -translate-y-full sm:top-full sm:translate-x-1/4 sm:translate-y-0">
                 <svg viewBox="0 0 164.05566 123.04167" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                     <path d="M0 0L164.056 0L164.056 123.042L0 123.042L0 0Z" id="path_1" />

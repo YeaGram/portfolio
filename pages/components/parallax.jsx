@@ -5,25 +5,25 @@ const Parallax = ()=> {
       <Title />
 
       {/* Moon */}
-      <div className="absolute top-2/4 w-full transform my-5">
-        <svg viewBox="0 0 320 346" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+      <div className="absolute sm:right-0 sm:-translate-x-1/2 lg:w-1/4 lg:bottom-0 lg:-translate-y-[20%] z-1  top-2/4 w-full sm:w-1/4 transform my-5">
+        <svg viewBox="0 0 328 328" version="1.1" xmlnsXlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
           <defs>
             <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient_1">
               <stop offset="0%" stopColor="#CD3FDE" />
               <stop offset="100%" stopColor="#170A36" stopOpacity="0" />
             </linearGradient>
           </defs>
-          <g id="Moon-Copy" transform="translate(-13 0)">
-            <g id="Moon-Copy">
-              <path d="M0 173C0 77.4547 77.4547 0 173 0C268.545 0 346 77.4547 346 173C346 268.545 268.545 346 173 346C77.4547 346 0 268.545 0 173Z" id="Ellipse" fill="url(#gradient_1)" fillRule="evenodd" stroke="none" />
-              <path d="M242.772 68.5711C241.426 97.3858 268.397 93.5012 268.478 83.4552C268.559 73.4092 262.055 62.1817 262.055 62.1817C262.055 62.1817 244.118 39.7563 242.772 68.5711Z" id="New-shape-2" fill="#FFFFFF" fillOpacity="0.21960784" fillRule="evenodd" stroke="none" />
-              <path d="M261.637 107.213C260.897 123.046 275.717 120.911 275.761 115.391C275.806 109.871 272.232 103.702 272.232 103.702C272.232 103.702 262.376 91.3798 261.637 107.213Z" id="New-shape-2-Copy" fill="#FFFFFF" fillOpacity="0.21960784" fillRule="evenodd" stroke="none" />
+          <g id="Moon">
+            <g id="Moon">
+              <path d="M0 164C0 73.4253 73.4253 0 164 0C254.575 0 328 73.4253 328 164C328 254.575 254.575 328 164 328C73.4253 328 0 254.575 0 164Z" id="Ellipse" fill="url(#gradient_1)" fillRule="evenodd" stroke="none" />
+              <path d="M230.142 65.0038C228.866 92.3195 254.434 88.6369 254.511 79.1136C254.588 69.5902 248.422 58.9468 248.422 58.9468C248.422 58.9468 231.418 37.6881 230.142 65.0038Z" id="New-shape-2" fill="#FFFFFF" fillOpacity="0.21960784" fillRule="evenodd" stroke="none" />
+              <path d="M248.025 101.635C247.324 116.644 261.373 114.621 261.415 109.388C261.458 104.155 258.07 98.307 258.07 98.307C258.07 98.307 248.727 86.626 248.025 101.635Z" id="New-shape-2-Copy" fill="#FFFFFF" fillOpacity="0.21960784" fillRule="evenodd" stroke="none" />
             </g>
           </g>
         </svg>
       </div>
       {/* background */}
-      <div className="absolute z-10 bottom-0 w-full">
+      <div className="absolute z-10 bottom-0 md:bottom-0 transform sm:translate-y-1/4 md:translate-y-1/2  w-full ">
       <svg  viewBox="0 0 1920 935.71686" >
         <defs>
           <linearGradient x1="0.3871991" y1="0.8995232" x2="0.58694243" y2="2.3494007E-08" id="gradient_1">

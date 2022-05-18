@@ -13,10 +13,19 @@ export default function Home() {
         <link rel="icon" href="/mylogo-white.ico" />
       </Head>
       <div className='Contain'>
-        <Header />
-        <Parallax />
-        <About />
-        <MyProject />
+        
+        <div>
+          <Header />
+        </div>
+        <div>
+          <Parallax />
+        </div>
+        <div>          
+          <About />
+        </div>
+        <div>          
+          <MyProject />
+        </div>
       </div>
     </div>
   )
